@@ -1,3 +1,4 @@
+# Bengkulu Vibes
 Selamat datang di BengkuluVibes, platform eksplorasi virtual yang membawa Anda mendalami keindahan Bengkulu. Dibangun sebagai bagian dari tugas proyek Pemrograman Basis Web 1 di Universitas Katolik Musi Charitas.
 Pengantar
 
