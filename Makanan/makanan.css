@@ -6,21 +6,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(csv/jumbomakan.png);
+  background-image: url(../src/ikanpais.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   position: relative;
-}
-
-.hero::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 30%;
-  bottom: 0;
-  background: linear-gradient(0deg, #0f172a 8%, rgba(255, 255, 255, 0) 50%);
 }
 
 .hero .content {
@@ -130,7 +120,7 @@ button#teksnav {
   font-size: 15px;
   border: none;
   background: none;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 button#teksnav::before {
@@ -139,7 +129,7 @@ button#teksnav::before {
 
 button#teksnav::after,
 button#teksnav::before {
-  content: "";
+  content: '';
   width: 0%;
   height: 2px;
   background: #00bfff;
@@ -171,22 +161,22 @@ button#teksnav:hover::before {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
 }
 .poppinsmedium {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
 .poppinsbold {
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 96px;
 }
 .poppinsboldsejarah {
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 65px;
 }
 .poppinsboldabout {
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 40px;
 }
 .teksps {
@@ -199,12 +189,12 @@ button#teksnav:hover::before {
   }
   .poppinsbold {
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 40px;
   }
   .poppinsboldabout {
     font-weight: 700;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 24px;
   }
   .teksps {
