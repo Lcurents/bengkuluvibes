@@ -17,8 +17,10 @@ body {
 .hero {
   min-height: 100vh;
   display: flex;
+  direction: column;
   justify-content: center;
-  align-items: center;
+  padding-top: 2rem;
+  align-items: flex-start;
   background-image: url(src/jt.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -84,7 +86,7 @@ body {
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
 }
 .navbutton:active {
-  background-color: #00bfff;
+  background-color: #ffe500;
 }
 button#teksnav {
   color: white;
@@ -104,7 +106,7 @@ button#teksnav::before {
   content: '';
   width: 0%;
   height: 2px;
-  background: #00bfff;
+  background: #ffe500;
   display: block;
   transition: 0.5s;
 }
