@@ -18,7 +18,9 @@ body {
   font-size: 70px;
   color: #383b38;
 }
-
+.fotoprofil {
+  width: 300px;
+}
 .hero {
   min-height: 100vh;
   display: flex;
@@ -401,5 +403,8 @@ button#namecard .star-6 {
   }
   .teksps {
     font-size: 15px;
+  }
+  .fotoprofil {
+    width: 100%;
   }
 }
